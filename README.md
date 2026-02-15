@@ -53,6 +53,7 @@ Follow these steps to set up the project locally.
 
     ```env
     NEXT_PUBLIC_TEMPLATE_CLIENT_ID=your_client_id_here
+    NEXT_PUBLIC_FACTORY_ADDRESS=your_factory_address_here
     ```
 
 ### Running the App
@@ -71,11 +72,11 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## 📜 Smart Contracts
+### Deploying Your Own Contract
 
-This project interacts with a Voting Factory contract deployed on the Sepolia Testnet.
-
-- **Factory Address:** `0xEE25544398E99584a7C8f1cF90A225e5E51a9169`
+1.  Deploy the contract using Thirdweb or your preferred method.
+2.  Copy the deployed contract address.
+3.  Update the `NEXT_PUBLIC_FACTORY_ADDRESS` in your `.env.local` file with the new address.
 
 ## 🤝 Contributing
 
