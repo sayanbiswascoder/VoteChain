@@ -8,7 +8,7 @@ import { getContract } from "thirdweb";
 import { sepolia } from "thirdweb/chains";
 import { useReadContract, useActiveAccount } from "thirdweb/react";
 
-const FACTORY_ADDRESS = "0xEE25544398E99584a7C8f1cF90A225e5E51a9169";
+const FACTORY_ADDRESS = process.env.NEXT_PUBLIC_FACTORY_ADDRESS as string;
 
 const factoryContract = getContract({
   client,
