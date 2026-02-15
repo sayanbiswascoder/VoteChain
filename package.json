@@ -1,7 +1,7 @@
 {
   "name": "test",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
@@ -33,5 +33,9 @@
       "@types/react": "19.1.10",
       "@types/react-dom": "19.1.7"
     }
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/sayanbiswascoder/VoteChain.git",
+  "author": "Sayan Biswas <sayanbiswas6073@gmail.com>",
+  "license": "MIT"
 }
